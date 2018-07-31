@@ -1,7 +1,7 @@
 Instruction
 -------------------
 1. Change your nginx conf file like this
-   sudo nano /etc/nginx/sites-available/default
+   		sudo nano /etc/nginx/sites-available/default
 
 		upstream app_example {
 		    least_conn;                 # Use Least Connections strategy
