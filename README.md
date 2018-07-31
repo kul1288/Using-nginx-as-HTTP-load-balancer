@@ -1,8 +1,7 @@
 Instruction
 -------------------
 1. Change your nginx conf file like this
-
-		sudo nano /etc/nginx/sites-available/default
+   sudo nano /etc/nginx/sites-available/default
 
 		upstream app_example {
 		    least_conn;                 # Use Least Connections strategy
@@ -28,7 +27,7 @@ Instruction
 4. check in browser http://localhost
 
 
-You can use upstream like this
+You can use upstream like this also
 ----------------------------------
 
 	upstream app_example  {
@@ -47,7 +46,7 @@ You can use upstream like this
 	} 
 
 	    OR
-	upstream backend {
+	upstream app_example {
 	   server 10.1.0.101 weight=4; 
 	   server 10.1.0.102 weight=2;
 	   server 10.1.0.103;
