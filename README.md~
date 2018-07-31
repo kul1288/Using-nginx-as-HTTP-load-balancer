@@ -23,9 +23,7 @@ Instruction
 
 2. sudo service nginx restart
 
-3. node server.js
-
-4. check in browser http://localhost
+3. check in browser http://localhost
 
 
 You can use upstream like this
